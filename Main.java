@@ -3,11 +3,11 @@
 public class Main {
     public static void main(String[] args) {
 
-        double precoOriginal = 200.00;
-        double percentualDesconto = 30;
-        double desconto = (percentualDesconto/100) *precoOriginal;
-        double precoDesconto = precoOriginal - desconto;
+        Cachorro cachorro = new Cachorro();
+        Gato gato = new Gato();
 
-        System.out.println(String.format("Seu valor com desconto é %.2f", precoDesconto));
+
+        cachorro.emitirSom();
+        gato.emitirSom();
+        }
     }
-}
